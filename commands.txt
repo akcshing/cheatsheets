@@ -1,1 +1,8 @@
-git init - initialise a git repo
+git init                    -initialise a git repo
+git add                     -adds changes to staged area
+git commit -m ""            -commits changes to local repository with comment
+git reset file.txt          -removes from staged area
+git push                    -pushes local repo to remote repo on github
+git push -u origin master   -sets default upstream to origin master
+git clone                   -clones github repo onto local
+.gitignore                  -commit a file called .gitignore, list items to ignore inside - if you add 'a' will ignore all files with 'a' in it
