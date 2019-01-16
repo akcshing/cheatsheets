@@ -1,1 +1,33 @@
-repository - collection of code
+repository              - collection of code
+REPL                    - read, evaluate, print, loop
+OOP                     - object orientated programming
+IRB                     - interactive ruby is a ruby REPL, used to check little things - not write programs
+class                   - string, integers, floats etc
+object                  - "hello" is an object, it's class is a string
+snake_case              -ruby variable/functions convention
+UpperCamelCase          - classes / (constants?)
+camelCase -
+Strongly/weakly typed   - 1 + '1' does/nt work, ruby is strongly typed
+method                  - .to_i() .length() etc
+assigning a variable in/to another variable - assigns what's in the variable to the left variable. variable/label makes it easier to find, but it's always the actual value being used.
+rubberducking           - ask a rubberduck
+scripting               -
+
+
+
+
+  ARRAYS
+
+array                   - good for ordering, listing
+index                   - number associated with a particular item in an array
+nil                     - nothing
+
+  HASHES
+
+Hashes                  - unordered data structures, good for labelling information eg dictionary
+key                     - label for value
+value                   - value assigned to label
+pair                    - key : value
+
+key and value types have to match: symbol, string etc
+can have a hash in a hash in a hash

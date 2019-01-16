@@ -1,3 +1,5 @@
+GIT and GITHUB
+
 git init                    -initialise a git repo
 git add                     -adds changes to staged area
 git commit -m ""            -commits changes to local repository with comment
@@ -6,3 +8,20 @@ git push                    -pushes local repo to remote repo on github
 git push -u origin master   -sets default upstream to origin master
 git clone                   -clones github repo onto local
 .gitignore                  -commit a file called .gitignore, list items to ignore inside - if you add 'a' will ignore all files with 'a' in it
+
+
+ARRAYS
+
+array.push('item')          - adds item to the end of the array - << shovel notation (ruby only)
+array.pop()                 - removes last item in the array, and also returns it (good for using and depleting array items)
+array.shift()               - removes first item in the array, and returns it
+array.unshift('item')       - adds item to the start of the array
+
+
+HASHES
+
+hash.key()
+hash.value()
+"key" => "value"
+:key => "value"
+key: "value"
