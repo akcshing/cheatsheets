@@ -16,6 +16,13 @@ array.push('item')          - adds item to the end of the array - << shovel nota
 array.pop()                 - removes last item in the array, and also returns it (good for using and depleting array items)
 array.shift()               - removes first item in the array, and returns it
 array.unshift('item')       - adds item to the start of the array
+array.insert(index, 'item') - adds item to index position in array, pushes the rest along
+array.index('item')         - returns the index of the specified item
+array.delete('item')        - removes all items equal to 'item'
+array.delete_at(index)      - removes item at specified index
+array.length()              - returns number of items in the array
+array.count()
+array.size()
 
 
 HASHES
@@ -25,3 +32,8 @@ hash.value()
 "key" => "value"
 :key => "value"
 key: "value"
+
+Loops
+
+break if                    - breaks if
+for item in array           -
